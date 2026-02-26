@@ -13,17 +13,51 @@ As requested by the authors of the citation, the names of the principal investig
 3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D. <br />
 4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D. <br />
 
-## ML_Codecademy_project 
+## Dataset features
 
-In this portfolio project you will be building an end-to-end machine learning workflow to enable predictive analysis and decision-making about a dataset. You will be converting this workflow into a productionalizable pipeline that showcases your skills as a machine learning engineer.
+The data set corresponds in our case to 14 features: 
 
-For this project, you will conduct your own analysis in a Jupyter Notebook and share your results through your personal GitHub page. This project can be included as part of your portfolio when you apply for data scientist and machine learning engineer jobs. It’s good practice to showcase a variety of skills in order to make your application shine.
+1. (age)
+2. (sex)
+3. (cp)
+4. (trestbps)
+5. (chol)
+6. (fbs)
+7. (restecg)
+8. (thalach)
+9. (exang)
+10. (oldpeak)
+11. (slope)
+12. (ca)
+13. (thal)
+14. (num) (the predicted attribute)
 
-## Project Objectives
--->  Complete a project to add to your portfolio <br />
--->  Use Git version control <br />
--->  Use Jupyter notebooks to build an end-to-end machine learning workflow
+# Complete documentation and meaning of each of the features
 
-## Prerequisites
--->  Machine Learning Engineer Career Path <br />
-Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project you’ll be building. There are many possible ways to correctly fulfill all of these requirements. You should expect to use the internet, Codecademy, and other resources when you encounter a problem that you cannot easily solve.
+  1 age: age in years <br />
+  2 sex: sex (1 = male; 0 = female) <br />
+  3 cp: chest pain type <br />
+    -- Value 1: typical angina <br />
+    -- Value 2: atypical angina <br />
+    -- Value 3: non-anginal pain <br />
+    -- Value 4: asymptomatic <br />
+ 4 trestbps: resting blood pressure (in mm Hg on admission to the hospital) <br />
+ 5 chol: serum cholestoral in mg/dl <br />
+ 6 fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false) <br />
+ 7 restecg: resting electrocardiographic results <br />
+    -- Value 0: normal <br />
+    -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV) <br />
+    -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria <br />
+ 8 thalach: maximum heart rate achieved <br />
+ 9 exang: exercise induced angina (1 = yes; 0 = no) <br />
+ 10 oldpeak = ST depression induced by exercise relative to rest <br />
+ 11 slope: the slope of the peak exercise ST segment <br />
+    -- Value 1: upsloping <br />
+    -- Value 2: flat <br />
+    -- Value 3: downsloping <br />
+ 12 ca: number of major vessels (0-3) colored by flourosopy <br />
+ 13 thal: 3 = normal; 6 = fixed defect; 7 = reversable defect <br />
+ 14 num: diagnosis of heart disease (angiographic disease status) <br />
+    -- Value 0: < 50% diameter narrowing <br />
+    -- Value 1: > 50% diameter narrowing <br />
+    (in any major vessel: attributes 59 through 68 are vessels) <br />
