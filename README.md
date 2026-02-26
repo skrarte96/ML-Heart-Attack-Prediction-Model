@@ -72,6 +72,5 @@ ROC-AUC:  0.9036796536796536 <br />
 
 # Future developments
 
-Create a small app with streamlit to insert and predict your own heart attack risk with Streamlit.  <br />
 Introduce much more visual representation regarding the relation between most relevant features and its target and the selection of the best model
 
