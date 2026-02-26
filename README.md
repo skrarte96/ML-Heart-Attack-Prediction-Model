@@ -1,6 +1,6 @@
 # ML Model that predicts probabilities of having a Heart Attack
 
-The goal of this proyect is to predict the probabilities that a person will have a Heart Attack. With this proyect we pretend to inform the people with Heart Disease Risk, the level of danger in which they are in so they can get conscious if which to contact a Cardiologist. Furthermore, in extreme cases of a colapsed sanitary system, it could help to stablish the people that should be treated with priority.
+The goal of this project is to predict the probability of having significant heart disease (>50% diameter narrowing) based on clinical attributes. With this project we aim to inform individuals at risk of Heart Disease, the level of danger in which they are in so they can become aware of their risk level and seek medical attention if necessary. Furthermore, help prioritize patients in case of healthcare system overload.
 
 ## Dataset Information
 
@@ -61,3 +61,17 @@ The data set corresponds in our case to 14 features:
     -- Value 0: < 50% diameter narrowing <br />
     -- Value 1: > 50% diameter narrowing <br />
     (in any major vessel: attributes 59 through 68 are vessels) <br />
+
+# Best Model obtained and its scores
+
+The best model based on ROC-AUC was:  RandomForestClassifier(max_depth=5, n_estimators=300, random_state=42)
+Accuracy:  0.9016393442622951
+F1 Score:  0.896551724137931
+Recall:  0.9285714285714286
+ROC-AUC:  0.9036796536796536
+
+# Future developments
+
+Create a small app with streamlit to insert and predict your own heart attack risk with Streamlit
+Introduce much more visual representation regarding the relation between most relevant features and its target and the selection of the best model
+
