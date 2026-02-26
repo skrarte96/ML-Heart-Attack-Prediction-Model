@@ -64,14 +64,14 @@ The data set corresponds in our case to 14 features:
 
 # Best Model obtained and its scores
 
-The best model based on ROC-AUC was:  RandomForestClassifier(max_depth=5, n_estimators=300, random_state=42)
-Accuracy:  0.9016393442622951
-F1 Score:  0.896551724137931
-Recall:  0.9285714285714286
-ROC-AUC:  0.9036796536796536
+The best model based on ROC-AUC was:  RandomForestClassifier(max_depth=5, n_estimators=300, random_state=42) <br />
+Accuracy:  0.9016393442622951 <br />
+F1 Score:  0.896551724137931 <br />
+Recall:  0.9285714285714286 <br />
+ROC-AUC:  0.9036796536796536 <br />
 
 # Future developments
 
-Create a small app with streamlit to insert and predict your own heart attack risk with Streamlit
+Create a small app with streamlit to insert and predict your own heart attack risk with Streamlit.  <br />
 Introduce much more visual representation regarding the relation between most relevant features and its target and the selection of the best model
 
